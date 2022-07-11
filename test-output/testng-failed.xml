@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dpproject.Contact">
+      <class name="bikegallery.biketest_prac">
         <methods>
-          <include name="setup"/>
-          <include name="contaus"/>
-          <include name="test" invocation-numbers="0 1"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- dpproject.Contact -->
+      </class> <!-- bikegallery.biketest_prac -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
